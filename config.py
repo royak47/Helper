@@ -1,0 +1,2 @@
+import os
+TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
