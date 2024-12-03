@@ -1,6 +1,6 @@
+from config import TOKEN
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters
 from commands import start, help, admin, filters as filter_commands
-from config import TOKEN
 
 def main():
     application = Application.builder().token(TOKEN).build()
